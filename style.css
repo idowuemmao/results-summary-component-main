@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* place-items: center; */
+}
+
+.body {
+    box-shadow: 0px 5px 30px 0px gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    max-width: 600px;
+    border-radius: 20px;
+    margin: 5rem 0;
+}
+
+
+.result-comp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 255px;
+    padding: 2rem;
+    border: 2px solid blue;
+    border-radius: 1rem;
+    background: rgb(91, 61, 248);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.summary-comp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 100%;
+    padding: 2rem;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.score {
+    margin: 2rem 0 1rem 0;
+    background-color: rgb(72, 37, 206);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+}
+
+.title1 {
+    color: gray;
+}
+
+.title2 {
+    display: grid;
+    align-items: center;
+    text-align: left;
+
+    width: 100%;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3.7rem;
+    font-weight: 100;
+}
+
+h6 {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-weight: 100;
+}
+
+.info {
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: gray;
+}
+
+.summ {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: pink;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 210px;
+}
+
+.breakdown {
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+span {
+    font-weight: bolder;
+    color: black;
+}
+
+.continue {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-top: 2rem;
+    border: none;
+}
+
+.continue:hover {
+    background-color: blue;
+}
+
+.memory {
+    background-color: papayawhip;
+}
+
+.verbal {
+    background-color: rgb(206, 232, 206);
+}
+
+.visual {
+    background-color: rgb(232, 232, 232);
+}
+
+.react {
+    color: palevioletred;
+}
+
+.mem {
+    color: lightsalmon;
+}
+
+.ver {
+    color: green;
+}
+
+.vis {
+    color: blue;
+}
+
+@media (max-width: 520px) {
+    .body {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
