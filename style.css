@@ -66,14 +66,13 @@ body {
 }
 
 .title1 {
-    color: gray;
+    color: rgb(222, 221, 221);
 }
 
 .title2 {
     display: grid;
     align-items: center;
     text-align: left;
-
     width: 100%;
     color: black;
     margin-bottom: 1rem;
@@ -86,7 +85,7 @@ h1 {
 
 h6 {
     font-size: 0.8rem;
-    color: gray;
+    color: rgb(222, 221, 221);
 }
 
 h2 {
@@ -97,7 +96,7 @@ h2 {
 .info {
     font-size: 0.9rem;
     font-weight: 100;
-    color: gray;
+    color: rgb(222, 221, 221);
 }
 
 .summ {
