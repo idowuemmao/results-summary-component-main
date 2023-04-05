@@ -121,7 +121,7 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: pink;
+    background-color: rgb(255, 246, 245);
     border: none;
     border-radius: 10px;
     padding: 10px 15px;
@@ -141,7 +141,7 @@ span {
 .continue {
     width: 100%;
     padding: 10px;
-    background-color: rgb(55, 54, 88);
+    background-color: rgb(48, 59, 89);
     color: white;
     border-radius: 20px;
     margin-top: 2rem;
@@ -154,27 +154,27 @@ span {
 
 
 .memory {
-    background-color: papayawhip;
+    background-color: rgb(255, 251, 242);
 }
 
 .verbal {
-    background-color: rgb(206, 232, 206);
+    background-color: rgb(242, 251, 250);
 }
 
 .visual {
-    background-color: rgb(232, 232, 232);
+    background-color: rgb(243, 243, 253);
 }
 
 .react {
-    color: palevioletred;
+    color: rgb(246, 145, 141)
 }
 
 .mem {
-    color: lightsalmon;
+    color: rgb(243, 188, 88);
 }
 
 .ver {
-    color: green;
+    color: rgb(58, 185, 151);
 }
 
 .vis {
